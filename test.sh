@@ -17,6 +17,9 @@ function testString {
     fi
 }
 
+# Ensure that files are executable
+chmod +x finn.sh jake.sh heman.sh
+
 testString "Finn should say ADVENTURE AWESOME TIME" ./finn.sh 'ADVENTURE AWESOME TIME'
 testString "Jake should say Mathemagical" ./jake.sh 'Mathemagical'
 testString "He-man should say Yeeeehaaaaw" ./heman.sh 'Yeeeehaaaaw'
