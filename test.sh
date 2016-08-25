@@ -21,5 +21,5 @@ testString "Finn should say ADVENTURE AWESOME TIME" ./finn.sh 'ADVENTURE AWESOME
 testString "Jake should say Mathemagical" ./jake.sh 'Mathemagical'
 
 echo "$testsPassed unit tests passed"
-echo "SUCCESS!!" 
+echo "SUCCESS!" 
 
